@@ -9,15 +9,9 @@ wagon.weight = 900
 wagon.max_speed = 1.6
 wagon.friction_force = 0.001
 wagon.air_resistance = 0.0015
-wagon.pictures.filenames[1] = "__Stainless Steel Wagon__/graphics/stainless-steel-wagon-spritesheet-1.png"
-wagon.pictures.filenames[2] = "__Stainless Steel Wagon__/graphics/stainless-steel-wagon-spritesheet-2.png"
-wagon.pictures.filenames[3] = "__Stainless Steel Wagon__/graphics/stainless-steel-wagon-spritesheet-3.png"
-wagon.pictures.filenames[4] = "__Stainless Steel Wagon__/graphics/stainless-steel-wagon-spritesheet-4.png"
+wagon.color = {r=243, g=243, b=243}
 wagon.open_sound.volume = 1.5
 wagon.close_sound.volume = 1.5
 wagon.sound_minimum_speed = 0.2
 wagon.mined_sound = { filename = "__core__/sound/deconstruct-large.ogg" }
 data:extend({wagon})
-
-data.raw["cargo-wagon"]["cargo-wagon"].mined_sound = { filename = "__core__/sound/deconstruct-medium.ogg" }
-data.raw["locomotive"]["diesel-locomotive"].mined_sound = { filename = "__core__/sound/deconstruct-medium.ogg" }
