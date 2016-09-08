@@ -1,4 +1,4 @@
-local wagon = util.table.deepcopy(data.raw["item"]["cargo-wagon"])
+local wagon = util.table.deepcopy(data.raw["item-with-entity-data"]["cargo-wagon"])
 wagon.name = "stainless-steel-wagon"
 wagon.icon = "__Stainless Steel Wagon__/graphics/stainless-steel-wagon.png"
 wagon.place_result = "stainless-steel-wagon"
